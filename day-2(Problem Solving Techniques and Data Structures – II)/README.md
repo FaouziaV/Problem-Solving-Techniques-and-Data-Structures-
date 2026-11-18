@@ -2,15 +2,6 @@
 
 This repository contains three Python assignments based on practical business scenarios. Each set demonstrates data structures and algorithmic patterns, with a focus on implementation, complexity, and practical use.
 
-## Contents
-
-- [Set 1 – E-Commerce Catalogue and Traffic Analysis](#set-1--e-commerce-catalogue-and-traffic-analysis)
-- [Set 2 – Insurance Claims Processing](#set-2--insurance-claims-processing)
-- [Set 3 – Logistics Network and Delivery Windows](#set-3--logistics-network-and-delivery-windows)
-- [Requirements and execution](#requirements-and-execution)
-
----
-
 ## Set 1 – E-Commerce Catalogue and Traffic Analysis
 
 ### Overview
@@ -27,13 +18,13 @@ This project demonstrates core data structures and algorithm patterns for an e-c
 
 | File | Description |
 |---|---|
-| `set1.py` | Complete Python source code |
+| `source_code.py` | Complete Python source code |
 | `output_and_complexity.md` | Execution output, decision table, complexity analysis, and assumptions |
 
 ### Run
 
 ```bash
-python set1.py
+python source_code.py
 ```
 
 The program prints the output for all five tasks. SKU lookup timings are measured during execution and may vary between runs and machines.
@@ -66,20 +57,15 @@ A Python implementation of common data structures and algorithms for an insuranc
 
 | File | Description |
 |---|---|
-| `set2.py` (or `source_code.py`, if renamed) | Complete working Python source code, including test cases |
+| `source_code.py` | Complete working Python source code, including test cases |
 | `output_and_complexity.md` | Actual output, complexity table, design decisions, assumptions, and test coverage |
 
 ### Run
 
 ```bash
-python set2.py
-```
-
-If the source file is named `source_code.py`, run:
-
-```bash
 python source_code.py
 ```
+
 
 The script runs all five demonstrations and then executes assertions covering empty inputs and duplicates.
 
@@ -103,7 +89,7 @@ This Python assignment models a courier company's hub network and delivery plann
 
 | File | Description |
 |---|---|
-| `set3.py` (or `source_code.py`, if renamed) | Complete Python implementation with all five tasks and test cases |
+| `source_code.py` | Complete Python implementation with all five tasks and test cases |
 | `output_and_complexity.md` | Execution output, graph adjacency list, complexity table, algorithm explanations, and test coverage |
 
 ### Graph model
@@ -117,38 +103,30 @@ The script runs assertions for empty inputs, duplicate insertions/scans, reachab
 ### Run
 
 ```bash
-python set3.py
-```
-
-If the source file is named `source_code.py`, run:
-
-```bash
 python source_code.py
 ```
-
----
 
 ## Requirements and execution
 
 - Python 3.8 or later
 - No third-party packages are required for these assignments.
 - Run each Python script from the folder containing that script and its required input files.
-- For Set 1, keep `orders.csv` in the same folder as `set1.py` if using the version that reads the CSV dataset.
+- For Set 1, keep `orders.csv` in the same folder as `source_code.py` if using the version that reads the CSV dataset.
 - Refer to each set's `output_and_complexity.md` for its execution output and detailed complexity analysis.
 - Runtime measurements may vary depending on the machine and system load.
 
 ## Suggested repository structure
 
 ```text
-Day-1/
+Day-3/
 ├── README.md
 ├── Set-1-E-Commerce/
-│   ├── set1.py
+│   ├── source_code.py
 │   └── output_and_complexity.md
 ├── Set-2-Insurance-Claims/
-│   ├── set2.py
+│   ├── source_code.py
 │   └── output_and_complexity.md
 └── Set-3-Logistics-Network/
-    ├── set3.py
+    ├── source_code.py
     └── output_and_complexity.md
 ```
