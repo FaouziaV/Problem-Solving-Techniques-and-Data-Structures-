@@ -18,7 +18,7 @@ This assignment focuses on order searching, sorting, duplicate detection, stack 
 **Files**
 | File | Description |
 |---|---|
-| `set1.py` | Python source code implementing all five tasks. |
+| `source_code.py` | Python source code implementing all five tasks. |
 | `orders.csv` | Input dataset containing 50,003 order records. |
 | `output_and_complexity.md` | Console output, time/space complexity analysis, and data-structure rationale. |
 
@@ -30,7 +30,7 @@ This assignment focuses on order searching, sorting, duplicate detection, stack 
 Keep `set1.py` and `orders.csv` in the same folder. The program opens the input file using the exact filename `orders.csv`.
 
 ```bash
-python set1.py
+python source_code.py
 ```
 
 If the downloaded CSV has a different name, rename it to `orders.csv` before running the script.
@@ -49,7 +49,7 @@ This assignment reviews a retail bank's card transactions using searching, sorti
 **Files**
 | File | Description |
 |---|---|
-| `set2.py` | Supplied Python source code implementing the five tasks. |
+| `source_code.py` | Supplied Python source code implementing the five tasks. |
 | `output_and_complexity.md` | Actual console output, complexity table, and data-structure rationale. |
 
 **Requirements**
@@ -58,7 +58,7 @@ This assignment reviews a retail bank's card transactions using searching, sorti
 
 **Run**
 ```bash
-python set2.py
+python source_code.py
 ```
 
 ### Set 3 — Hospital Appointment Desk
@@ -75,7 +75,7 @@ This assignment models a hospital appointment desk using searching, sorting, dup
 **Files**
 | File | Description |
 |---|---|
-| `set3.py` | Supplied Python source code implementing all five tasks. |
+| `source_code.py` | Supplied Python source code implementing all five tasks. |
 | `output_and_complexity.md` | Actual console output, complexity table, data-structure rationale, and a typed selection-sort trace. |
 
 **Requirements**
@@ -84,7 +84,7 @@ This assignment models a hospital appointment desk using searching, sorting, dup
 
 **Run**
 ```bash
-python set3.py
+python source_code.py
 ```
 
 ## Execution Output and Complexity
@@ -96,14 +96,14 @@ Each assignment includes an `output_and_complexity.md` file containing its captu
 ```text
 Day-1/
 ├── Set-1-Retail-Order-Desk/
-│   ├── set1.py
+│   ├── source_code.py
 │   ├── orders.csv
 │   └── output_and_complexity.md
 ├── Set-2-Retail-Banking/
-│   ├── set2.py
+│   ├── source_code.py
 │   └── output_and_complexity.md
 └── Set-3-Hospital-Appointment-Desk/
-    ├── set3.py
+    ├── source_code.py
     └── output_and_complexity.md
 ```
 
